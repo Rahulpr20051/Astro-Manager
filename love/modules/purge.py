@@ -57,7 +57,7 @@ async def purge(event):
         await event.client.delete_messages(chat, msgs)
         time_ = time.perf_counter() - start
         del_res = await event.client.send_message(
-            event.chat_id, f"Purged {count} Messages In {time_:0.2f} Secs."
+            event.chat_id, f"✔️ Purged {count} Messages In {time_:0.2f} Secs."
         )
 
         await asyncio.sleep(4)

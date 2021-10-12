@@ -359,11 +359,11 @@ def Masha_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text="""○ Name : Manager Beta #V3
 
-•I can do lots of things in group.
+○ Creator : This Person
 
-•I have feature of Ai chat..So i can talk like human👀
+○ Channel : @CP_Archivedmovies 
 
-•ADD me into your Group and Make me Admin🙂and let me do my work...in your group
+○ Library : Pyrogram asyncio 1.2.9
    ~Thanks❤️~.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

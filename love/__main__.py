@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(text="🚀 HELP 🚀", callback_data="help_back"),
     ],
     [
-      InlineKeyboardButton(text="☺️ About Me", callback_data="masha_"),
+      InlineKeyboardButton(text="🛡️ Updates", callback_data="masha_"),
       InlineKeyboardButton(text="📢 Channel", url="https://t.me/CP_Archivedmovies"),
     ],
     [
@@ -390,7 +390,9 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""Creator : This Person Language : Python 3 Channel : @CP_Archivedmovies""",
+            text="""👉 Code is not yet been released... \n 👉 but it will be releasing soon... \n
+
+👉 Stay Tuned..""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(

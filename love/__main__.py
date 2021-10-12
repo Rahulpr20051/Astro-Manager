@@ -357,7 +357,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text=""" ○ Name : Manager Beta #V3 \n ○ Creator : This Person \n ○ Language : Python3 \n ○ Library : Pyrogram asyncio 1.2.9
+            text="""hiManager Beta #V3Manager Beta #V3Manager Beta #V3Manager Beta #V3Manager Beta #V3
 
 ○ Channel : @CP_Archivedmovies
 

@@ -359,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text="""H!✨ This Is a powerful group management bot built to help you manage your group easily..
 
-○ Channel : @CP_Archivedmovies
+•I can do lots of things in group.
 
 •I have feature of Ai chat..So i can talk like human👀
 

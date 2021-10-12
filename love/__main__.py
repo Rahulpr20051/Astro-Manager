@@ -357,7 +357,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""hiManager Beta #V3Manager Beta #V3Manager Beta #V3Manager Beta #V3Manager Beta #V3
+            text="""H!✨ This Is a powerful group management bot built to help you manage your group easily..
 
 ○ Channel : @CP_Archivedmovies
 

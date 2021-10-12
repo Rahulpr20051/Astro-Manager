@@ -91,14 +91,14 @@ buttons = [
         InlineKeyboardButton(text="🚀 HELP 🚀", callback_data="help_back"),
     ],
     [
-      InlineKeyboardButton(text="•Aʙᴏᴜᴛ•", callback_data="masha_"),
-      InlineKeyboardButton(text="•Dᴇᴠ•", url="https://t.me/Psycho_Bots"),
+      InlineKeyboardButton(text="•☺️ About Me", callback_data="masha_"),
+      InlineKeyboardButton(text="📢 Channel", url="https://t.me/CP_Archivedmovies"),
     ],
     [
         InlineKeyboardButton(
             text="ok", callback_data="source_"),
         InlineKeyboardButton(
-            text="×𝐒𝐔𝐏𝐏𝐎𝐑𝐓×", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🤘 Share Me", url=f"https://t.me/{SUPPORT_CHAT}"
         ),
     ],
 ]

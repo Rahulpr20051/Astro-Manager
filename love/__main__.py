@@ -359,7 +359,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
         query.message.edit_text(
             text="""○ Name : Manager Beta #V3
 
-○ Creator : This Person
+•I can do lots of things in group.
 
 ○ Channel : @CP_Archivedmovies 
 

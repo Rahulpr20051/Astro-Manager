@@ -357,9 +357,9 @@ def Masha_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "masha_":
         query.message.edit_text(
-            text="""H!✨ This Is a powerful group management bot built to help you manage your group easily..
+            text=""" ○ Name : Manager Beta #V3 \n ○ Creator : This Person \n ○ Language : Python3 \n ○ Library : Pyrogram asyncio 1.2.9
 
-•I can do lots of things in group.
+○ Channel : @CP_Archivedmovies
 
 •I have feature of Ai chat..So i can talk like human👀
 

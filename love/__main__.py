@@ -75,10 +75,10 @@ def get_readable_time(seconds: int) -> str:
 
 PM_START_TEXT = """
 *Hi* 👋\n
-*Iam a Advanced Group Manager bot*...  
-*I can help you to manage your groups....*\n
-*Add me into your group to see my power*\n
-*Click on HELP to know about my features....*
+*Iam a Advanced Group Manager bot 😜*...  
+*I can ✔️ help you to manage your groups....*\n
+*Add me into your group to see my power 💪*\n
+*Click on HELP to know about my features 😍....*
 
 """
 
@@ -96,7 +96,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="࿇Gɪᴛʜᴜʙ Sᴏᴜʀᴄᴇ࿇", callback_data="source_"),
+            text="ok", callback_data="source_"),
         InlineKeyboardButton(
             text="×𝐒𝐔𝐏𝐏𝐎𝐑𝐓×", url=f"https://t.me/{SUPPORT_CHAT}"
         ),

@@ -91,7 +91,7 @@ buttons = [
         InlineKeyboardButton(text="🚀 HELP 🚀", callback_data="help_back"),
     ],
     [
-      InlineKeyboardButton(text="•☺️ About Me", callback_data="masha_"),
+      InlineKeyboardButton(text="☺️ About Me", callback_data="masha_"),
       InlineKeyboardButton(text="📢 Channel", url="https://t.me/CP_Archivedmovies"),
     ],
     [
@@ -105,14 +105,14 @@ buttons = [
 
 
 HELP_STRINGS = """
-*H!✨ ʘ‿ʘ*
-вєłσω ıs αłł мy ƒєαтυяєs\n
-ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇᴍ ᴛᴏ ᴋɴᴏᴡ ᴀʙᴏᴜᴛ ғᴇᴀᴛᴜʀᴇs🙌
+*Hi*
+*You can see all my features here*\n
+*Click on them to know about them about more* 😉...
 
 """
 
 
-DONATE_STRING = """No need.. I'm rich"""
+DONATE_STRING = """No need Iam rich 😅"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -311,7 +311,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 disable_web_page_preview=True,
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="•Mᴇɴᴜ Mᴀɪɴ•", callback_data="help_back")]]
+                    [[InlineKeyboardButton(text="💡 Main Menu 💡", callback_data="help_back")]]
                 ),
             )
 

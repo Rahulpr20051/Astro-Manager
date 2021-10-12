@@ -83,10 +83,10 @@ Click on **HELP** to know about my features or Use /help.
 """
 
 buttons = [
-    [
-        InlineKeyboardButton(
-            text="𝘼𝘿𝘿 𝙏𝙊 𝙔𝙊𝙐𝙍 𝙂𝙍𝙊𝙐𝙋✛", url="t.me/MISS_JASMINE_BOT?startgroup=true"),
-    ],
+    
+        
+            
+
     [
         InlineKeyboardButton(text="☉𝙃𝙀𝙇𝙋 𝙈𝙀𝙉𝙐☉", callback_data="help_back"),
     ],

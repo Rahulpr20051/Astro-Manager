@@ -94,14 +94,14 @@ buttons = [
       InlineKeyboardButton(text="☺️ About Me", callback_data="masha_"),
       InlineKeyboardButton(text="📢 Channel", url="https://t.me/CP_Archivedmovies"),
     ],
-    
-        
-            
+    [
+      InlineKeyboardButton(  
+       text="🔥 Code", callback_data="source_"),     
         InlineKeyboardButton(
             text="🤘 Share Me", url=f"https://telegram.me/share/url?url=https://t.me/Manager_v3_bot"
         ),
     ],
-
+] 
 
 
 HELP_STRINGS = """

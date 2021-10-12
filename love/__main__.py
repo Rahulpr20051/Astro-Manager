@@ -96,9 +96,9 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="ok", callback_data="source_"),
+            text="🔥 Code", callback_data="source_"),
         InlineKeyboardButton(
-            text="🤘 Share Me", url=f"https://t.me/{SUPPORT_CHAT}"
+            text="🤘 Share Me", url=f"https://telegram.me/share/url?url=https://t.me/Manager_v3_bot"
         ),
     ],
 ]

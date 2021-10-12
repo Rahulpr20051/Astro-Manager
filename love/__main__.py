@@ -390,9 +390,10 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""👉 Code is not yet been released... \n 👉 but it will be releasing soon... \n
-
+            text="""👉 Code is not yet been released... 
+            👉 but it will be releasing soon...
 👉 Stay Tuned..""",
+
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(

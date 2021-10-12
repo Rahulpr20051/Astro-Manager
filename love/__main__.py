@@ -361,9 +361,9 @@ def Masha_about_callback(update: Update, context: CallbackContext):
 
 •I can do lots of things in group.
 
-○ Channel : @CP_Archivedmovies 
+•I have feature of Ai chat..So i can talk like human👀
 
-○ Library : Pyrogram asyncio 1.2.9
+•ADD me into your Group and Make me Admin🙂and let me do my work...in your group
    ~Thanks❤️~.""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,

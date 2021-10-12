@@ -370,7 +370,7 @@ def Masha_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back🤧", callback_data="masha_back")
+                    InlineKeyboardButton(text="◀️ Back", callback_data="masha_back")
                  ]
                 ]
             ),
@@ -390,13 +390,13 @@ def Source_about_callback(update: Update, context: CallbackContext):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text="""MY SOURCE CODE IS BELOW\n[GitHub Source](https://github.com/AstroUB/AstroManager) .""",
+            text="""Hello""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=False,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Back🤧", callback_data="source_back")
+                    InlineKeyboardButton(text="◀️ Back", callback_data="source_back")
                  ]
                 ]
             ),

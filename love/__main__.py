@@ -101,7 +101,7 @@ buttons = [
             text="🤘 Share Me", url=f"https://telegram.me/share/url?url=https://t.me/Manager_v3_bot"
         ),
     ],
-]
+
 
 
 HELP_STRINGS = """

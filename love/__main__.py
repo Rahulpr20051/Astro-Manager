@@ -107,8 +107,8 @@ buttons = [
 HELP_STRINGS = """
 *Hi*
 *You can see all my features here*\n
-*Click on them to know about them about more* 😉...
-
+*Click on them to know them about more* 😉...
+*Add me to group and promote me as admin to see my power 💪.*
 """
 
 

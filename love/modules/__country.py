@@ -79,7 +79,7 @@ async def msg(event):
 
     wiki = a.get("wiki")
 
-    caption = f"""<b><u>Information Gathered Successfully</b></u>
+    caption = f"""<b><u>☑️ Information Gathered Successfully</b></u>
 <b>
 Country Name:- {name}
 Alternative Spellings:- {hu}
@@ -101,7 +101,7 @@ Time Zones:- {tom}
 Top Level Domain:- {lanester}
 wikipedia:- {wiki}</b>
 
-Gathered By LOVISH.</b>
+Gathered By me.</b>
 """
     
     
@@ -113,9 +113,9 @@ Gathered By LOVISH.</b>
     
 
 __help__ = """
-I will give information about a country
+*I will give information about a country*
 
- ❍ /country <country name>*:* Gathering info about given country
+ ▶️ /country <country name>*:* Gathering info about given country....
 """
 
-__mod_name__ = "Cᴏᴜɴᴛʀʏ🌐"
+__mod_name__ = "Country🌐"

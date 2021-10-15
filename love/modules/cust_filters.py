@@ -216,7 +216,7 @@ def filters(update, context):
     if add is True:
         send_message(
             update.effective_message,
-            "Saved filter '{}' in *{}*!".format(keyword, chat_name),
+            "👍 Saved filter '{}' in *{}*!".format(keyword, chat_name),
             parse_mode=telegram.ParseMode.MARKDOWN,
         )
     raise DispatcherHandlerStop
@@ -256,7 +256,7 @@ def stop_filter(update, context):
             sql.remove_filter(chat_id, args[1])
             send_message(
                 update.effective_message,
-                "Okay, I'll stop replying to that filter in *{}*.".format(chat_name),
+                "Okay 👍, I'll stop replying to that filter in *{}*.".format(chat_name),
                 parse_mode=telegram.ParseMode.MARKDOWN,
             )
             raise DispatcherHandlerStop
@@ -515,7 +515,7 @@ def rmall_filters(update, context):
             ]
         )
         update.effective_message.reply_text(
-            f"Are you sure you would like to stop ALL filters in {chat.title}? This action cannot be undone.",
+            f"Are you sure you would like to stop 😳 ALL filters in {chat.title}?🧐 This action cannot be undone.",
             reply_markup=buttons,
             parse_mode=ParseMode.MARKDOWN,
         )
@@ -609,7 +609,7 @@ def __chat_settings__(chat_id, user_id):
 __help__ = """
  ✪ /filters*:* List all active filters saved in the chat.
 
-*Admin only:*
+*👮‍♂️ Admin only:*
  ✪ /filter <keyword> <reply message>*:* Add a filter to this chat. The bot will now reply that message whenever 'keyword'\
 is mentioned. If you reply to a sticker with a keyword, the bot will reply with that sticker. NOTE: all filter \
 keywords are in lowercase. If you want your keyword to be a sentence, use quotes. eg: /filter "hey there" How you \
@@ -632,7 +632,7 @@ Check `/markdownhelp` to know more!
 
 """
 
-__mod_name__ = "Fɪʟᴛᴇʀs📜"
+__mod_name__ = "Filter📜"
 
 FILTER_HANDLER = CommandHandler("filter", filters)
 STOP_HANDLER = CommandHandler("stop", stop_filter)
